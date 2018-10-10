@@ -1,1 +1,159 @@
 /* add your styles for this specific site below */
+
+.pride {
+    padding: 25px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    margin: auto;
+}
+
+.pride-half {
+    padding: 25px;
+    padding-right: auto;
+    padding-left: auto;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    margin: auto;
+}
+
+    .pride-yellow {
+        background-color: #FFD100;
+        color:black;
+    }
+
+    .pride-number {
+        font-size: 3em;
+    }
+
+
+    blockquote{font-size:1.2em !important;padding:20px;margin:20px;border-left:10px solid #f1d000 !important;line-height:1.4em !important;}
+
+    .border {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .no-list {
+        list-style: none;
+    }
+
+
+
+
+    /* line 29, assets/stylesheets/Envision/sass/shared/_posts.scss */
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid rgba(43, 42, 58, 0.6);
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* line 41, assets/stylesheets/Envision/sass/shared/_posts.scss */
+.takeaway-parallax {
+  /* background image is edited on each page template */
+  height: 100%;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+/* line 48, assets/stylesheets/Envision/sass/shared/_posts.scss */
+.takeaway {
+  color: #fff;
+  text-shadow: 2px 2px 2px black;
+}
+/* line 52, assets/stylesheets/Envision/sass/shared/_posts.scss */
+.takeaway a:link, .takeaway a:hover, .takeaway a:visited {
+  color: #fff;
+}
+
+/* line 57, assets/stylesheets/Envision/sass/shared/_posts.scss */
+.takeaway-header {
+  background-color: rgba(43, 42, 58, 0.6);
+  padding: 20px;
+  color: white;
+  margin-bottom: 0;
+}
+
+/* line 64, assets/stylesheets/Envision/sass/shared/_posts.scss */
+.takeaway-header h2 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 69, assets/stylesheets/Envision/sass/shared/_posts.scss */
+ul.takeaway {
+  font-family: "Open Sans", Georgia, serif;
+  font-size: 1.3em;
+  padding: 30px;
+  list-style-image: url("/envision/wp-content/uploads/2017/05/triangle-bullet.png");
+}
+
+/* line 76, assets/stylesheets/Envision/sass/shared/_posts.scss */
+.takeaway p {
+  font-family: "Open Sans", Georgia, serif;
+  font-size: 1.3em;
+  padding: 30px 30px 0 30px;
+}
+
+/* line 82, assets/stylesheets/Envision/sass/shared/_posts.scss */
+ol.takeaway {
+  font-family: "Open Sans", Georgia, serif;
+  font-size: 1.3em;
+  padding: 30px;
+}
+
+/* line 89, assets/stylesheets/Envision/sass/shared/_posts.scss */
+ul.takeaway li, ol.takeaway li {
+  padding: 10px;
+}
+
+/* line 93, assets/stylesheets/Envision/sass/shared/_posts.scss */
+ul.takeaway li ul li {
+  list-style-image: url("/envision/wp-content/uploads/2017/05/triangle-bullet.png");
+}
+
+/* line 97, assets/stylesheets/Envision/sass/shared/_posts.scss */
+ul.takeaway li ul li, ol.takeaway li ul li {
+  padding: 5px;
+}
+
+/* line 102, assets/stylesheets/Envision/sass/shared/_posts.scss */
+ul.takeaway li a, ol.takeaway li a {
+  color: #fff;
+}
+
+.landing {
+  height: 70vh;
+  min-height: 500px;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.takeaway-header h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Oswald", "Open Sans", Arial, sans-serif;
+}
+
+sup {font-size: .7em;}
+
+
+.btn{font-family:inherit;font-size:inherit;color:inherit;background:none;cursor:pointer;padding:10px 60px;display:inline-block;text-transform:uppercase;letter-spacing:1px;font-weight:700;outline:none;position:relative;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;border-radius:0;width:98%;}
+.btn:after{content:'';position:absolute;z-index:-1;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;}
+.btn-1{border:2px solid #171717;color:#171717;}
+.btn-1a:hover, .btn-1a:focus, .btn-1a:active:focus,
+.btn-1a:active{background-color:#739d6d; color: white !important;}
+.btn-1a:active:focus {background-color: #5e8758;}
+.btn-1a:visited, .btn-1a:link{color:#white;text-decoration:none;}

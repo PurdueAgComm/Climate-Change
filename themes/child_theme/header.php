@@ -59,9 +59,13 @@ var _gaq = _gaq || [];
 					}
 					?>
 
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=agcomm"></script>
   <?php wp_enqueue_script("jquery"); ?>
   <?php wp_head(); ?>
 </head>
+
 <body style="">
 <div class="navbar navbar-inverse goldbar" role="navigation">
       <div class="container">
@@ -172,8 +176,8 @@ var _gaq = _gaq || [];
 <div class="container">
   <div class="row">
     <div class="logo col-lg-2 col-md-3 col-sm-3 col-xs-12">
-      <a href="/">
-        <img class="img-responsive aglogo" src="https://agriculture.purdue.edu/graphics/PurdueAgLogo.svg" onerror="this.src=//agriculture.purdue.edu/graphics/PurdueAgLogo.png; this.onerror=null;" >
+      <a href="https://purdue.edu">
+        <img class="img-responsive aglogo" src="http://www.purdue.edu/purdue/images/logo.png">
       </a>
     </div>
     <!-- Insert Department or Center Name Below -->

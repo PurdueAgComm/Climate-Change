@@ -1,4 +1,4 @@
-<div class="footer">
+<div class="footer" style="display:none;">
   <div class="container">
     <div class="row panel-group" id="accordion">
     <div class="panel panel-default col-lg-2 col-md-2 col-sm-2 col-xs-12 left">
